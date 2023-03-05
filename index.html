@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>DOM Array Methods</title>
+  </head>
+  <body class="flex flex-col items-center min-h-screen m-0 bg-slate-100">
+    <h1 class="text-4xl">DOM Array Methods</h1>
+
+    <div class="container flex p-[20px] my-0 mx-auto max-w-full w-[800px]">
+      <aside class="py-[10px] px-[20px] w-[250px] border-r-4 border-black">
+        <button
+          id="add-user"
+          class="bg-white border border-[#111] cursor-pointer block w-full p-[10px] mb-[20px] rounded-md font-bold text-[14px]"
+        >
+          Add User 😄 - forEach()
+        </button>
+        <button
+          id="double"
+          class="bg-white border border-[#111] cursor-pointer block w-full p-[10px] mb-[20px] rounded-md font-bold text-[14px]"
+        >
+          Double Money 💰 - map()
+        </button>
+        <button
+          id="show-millionaires"
+          class="bg-white border border-[#111] cursor-pointer block w-full p-[10px] mb-[20px] rounded-md font-bold text-[14px]"
+        >
+          Show Only Millioinaires 🤑 - filter()
+        </button>
+        <button
+          id="sort"
+          class="bg-white border border-[#111] cursor-pointer block w-full p-[10px] mb-[20px] rounded-md font-bold text-[14px]"
+        >
+          Sort by Richest 🪙 - sort()
+        </button>
+        <button
+          id="calculate-wealth"
+          class="bg-white border border-[#111] cursor-pointer block w-full p-[10px] mb-[20px] rounded-md font-bold text-[14px]"
+        >
+          Calculate Entire Wealth 🏦 - reduce()
+        </button>
+      </aside>
+
+      <main id="main" class="flex-1 py-[10px] px-[20px]">
+        <h2 class="border-b-2 pb-[10px] flex justify-between mb-[20px]"><strong>Person</strong> Wealth</h2>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
